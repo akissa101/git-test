@@ -13,7 +13,7 @@ type PageProps = {
 };
 
 function ArticlePage({ params: { articleId } }: PageProps) {
-  // console.log(articleId);
+  // console.log(articleId)
 
   //Get current article
   const { data, isLoading, isError, error } = useGetArticle(articleId);
